@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Feminina Elegance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Elegance</h1>
+    <nav>
+      <a href="#">Início</a>
+      <a href="#produtos">Produtos</a>
+      <a href="#newsletter">Newsletter</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Nova coleção primavera/verão</h2>
+    <p>Estilo e elegância para todas as ocasiões</p>
+    <button onclick="scrollToProdutos()">Ver Coleção</button>
+  </section>
+
+  <section id="produtos" class="produtos">
+    <h3>Produtos em destaque</h3>
+    <div class="grid">
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x250" alt="Produto 1">
+        <p>Vestido Floral - R$129,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x250" alt="Produto 2">
+        <p>Blusa Elegante - R$89,90</p>
+      </div>
+      <div class="produto">
+        <img src="https://via.placeholder.com/200x250" alt="Produto 3">
+        <p>Saia Longa - R$109,90</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="newsletter" class="newsletter">
+    <h3>Assine nossa newsletter</h3>
+    <p>Receba ofertas exclusivas no seu e-mail</p>
+    <form onsubmit="return cadastrarEmail()">
+      <input type="email" id="email" placeholder="Digite seu e-mail" required>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Elegance - Todos os direitos reservados</p>
+    <div class="redes-sociais">
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

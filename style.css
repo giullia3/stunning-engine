@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #fff;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8e1e7;
+}
+
+header h1 {
+  font-size: 28px;
+  color: #b4005c;
+}
+
+nav a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #b4005c;
+  font-weight: bold;
+}
+
+.hero {
+  background: url('https://via.placeholder.com/1200x400') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #f7cce3;
+}
+
+.hero h2 {
+  font-size: 40px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  background-color: #b4005c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.produtos {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.produto img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+.newsletter {
+  background-color: #f8e1e7;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.newsletter input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #f0afd1;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #edaacd;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
